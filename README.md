@@ -20,3 +20,13 @@ cat << 'EOF' | base64
 echo "Hello World!"
 EOF
 ```
+
+## Troubleshooting
+
+You can get the output from the script by running: (you may need to edit `hello` to whatever you named your bootstrap container)
+
+```shell
+enter-admin-container
+sheltie
+journalctl -u bootstrap-containers@hello.service
+```
