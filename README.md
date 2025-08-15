@@ -1,6 +1,6 @@
 This is a bootstrap container for Bottlerocket that you can use to easily run arbitrary scripts. It executes whatever you put in the user-data so you don't have to make a custom docker image for every particular thing.
 
-The docker image is [super](Dockerfile) [simple](main.sh) and based on `debian:bookworm-slim`.
+The docker image is [super](Dockerfile) [simple](main.sh) and based on `debian:trixie-slim`.
 
 Here's an example of how to use it in your Bottlerocket user data:
 
