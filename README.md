@@ -27,6 +27,6 @@ You can get the output from the script by running: (you may need to edit `hello`
 
 ```shell
 enter-admin-container
-sheltie
+sudo sheltie
 journalctl -u bootstrap-containers@hello.service
 ```
